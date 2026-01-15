@@ -9,7 +9,7 @@ from pathlib import Path
 torch.manual_seed(42)
 
 PROJECT_PATH = Path(os.getcwd())
-TEXT_PATH = PROJECT_PATH / 'Transformer_from_scratch' / 'data/input.txt'
+TEXT_PATH = PROJECT_PATH / 'data/input.txt'
 SPLIT_RATIO = 0.9
 
 BLOCK_SIZE = 32
