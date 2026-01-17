@@ -4,10 +4,7 @@
 
 1. [Project Overview](#1-project-overview)
 2. [Model Architecture](#2-model-architecture)
-    1. [Attention Mechanism](#21-attention-mechanism)
-    2. [Feed-Forward Network](#22-feed-forward-network)
-    3. [Transformer Block](#23-transformer-block)
-3. [Data Loading and Training Setup](#3-data-loading-and-training-setup)
+3. [Data Processing and Dataset](#3-data-processing-and-dataset)
 4. [Training Setup](#4-training-setup)
 5. [Progressive Model Construction](#5-progressive-model-construction)
     1. [Bigram Model (Baseline)](#51-bigram-model-baseline)
@@ -34,7 +31,7 @@ Each architectural change is evaluated independently, and training/validation lo
 
 ---
 
-## 2. Transformer Architecture (High-Level)
+## 2. Model Architecture
 
 The architecture of this model is based on the Transformer design introduced in the paper  
 **“Attention Is All You Need”** (Vaswani et al., 2017).
