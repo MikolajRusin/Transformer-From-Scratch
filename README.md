@@ -503,6 +503,7 @@ class TransformerModel(nn.Module):
             loss = F.cross_entropy(logits.view(-1, logits.size(-1)), targets.view(-1))
 
         return logits, loss
+```
 
 ### 5.6 Multiple Transformer Blocks
 
