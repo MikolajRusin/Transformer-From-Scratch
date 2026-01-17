@@ -743,7 +743,7 @@ Despite these challenges, the model showed clear improvements in its ability to 
 
 ---
 
-## Final Model Results
+## 6. Final Model Results
 
 The final model, which can be found in the **model** folder, was trained using the following hyperparameters:
 
@@ -794,7 +794,7 @@ Here are the key results:
 
 ---
 
-## 6. Future Improvements
+## 7. Future Improvements
 
 While the current model demonstrates solid performance, there are several areas for improvement and further exploration. In this section, we outline some potential directions to enhance the model's capacity, efficiency, and generalization.
 
@@ -820,7 +820,7 @@ Currently, the model is trained on a relatively small dataset (~1M characters), 
 
 ---
 
-## 7. Conclusion
+## 8. Conclusion
 
 In this project, we successfully implemented a **GPT-style language model from scratch**, leveraging the Transformer architecture to perform **character-level language modeling**. The model was progressively built, starting with a simple **bigram model** and gradually incorporating more complex components like **positional embeddings**, **multi-head self-attention**, and **dropout** to improve performance and generalization.
 
